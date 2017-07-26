@@ -1,4 +1,4 @@
-#/!usr/bin/python
+#!/usr/bin/python
 # number = 23
 # running = True
 

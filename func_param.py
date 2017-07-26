@@ -46,4 +46,12 @@ def total(initial=5, *numbers, **keywords):
 print(total(10,1,2,3,vegetables=50, fruits=100))
 
 
+def total2(initial=5, *, vegetables): 
+	count = initial 
+	count += vegetables 
+	return count
+print(total2(10,vegetables=50)) #66
+#print(total2(10, 1, 2, 3,))
+
+
 
