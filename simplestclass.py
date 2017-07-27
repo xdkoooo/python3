@@ -1,7 +1,10 @@
 #!/usr/bin/python
 
 class Person:
-	pass # An empty block
+	def sayHi(self) :
+		print('Hello, how are you ?')
 
 p = Person()
 print(p)
+
+p.sayHi()
